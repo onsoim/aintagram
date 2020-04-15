@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/topBar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -15,7 +14,7 @@
         android:textSize="30dp"
         />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/activity"
         android:scrollbars="horizontal"
         android:layout_width="match_parent"
@@ -25,7 +24,7 @@
         />
 
     <!--  Bottom Bar  -->
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/MainBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -34,7 +33,7 @@
         app:layout_constraintRight_toLeftOf="@id/ExploreBtn"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ExploreBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -44,7 +43,7 @@
         app:layout_constraintRight_toRightOf="@id/AddBtn"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/AddBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -54,7 +53,7 @@
         app:layout_constraintRight_toLeftOf="@id/ActivityBtn"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ActivityBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -64,7 +63,7 @@
         app:layout_constraintRight_toLeftOf="@id/ProfileBtn"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ProfileBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -74,4 +73,4 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
