@@ -11,6 +11,6 @@ RUN apt-get install -y \
 
 WORKDIR /app
 
-# ADD requirements.txt /app/
+ADD requirements.txt /app/
 
-# RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirements.txt
