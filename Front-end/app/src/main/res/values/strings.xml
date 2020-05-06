@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">aintagram</string>
+    <string name="kakao_app_key">0ec7dae24839e2bd35df7991ffdb1880</string>
 </resources>
